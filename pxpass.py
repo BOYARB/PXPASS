@@ -3,8 +3,7 @@ import os
 os.system('clear')  # لمسح محتوى الشاشة في Termux
 hh = " \033[1;37m "
 print ( hh )
-import pyfiglet
-print ( pyfiglet.figlet_format ( ' PXPASS ' ))
+print ( " PXPASS ") 
 
 n = " \033[1;31m "
 print ( n )
