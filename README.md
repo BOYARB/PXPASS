@@ -19,4 +19,6 @@ https://github.com/BOYARB/PXPASS
 
 cd PXPASS 
 
+pip install -r requirements.txt
+
 python pxpass.py
