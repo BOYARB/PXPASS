@@ -87,7 +87,7 @@ def main():
         encoded_message = encode_base64(message)  
         pp =  " \033[1;33m "
         print ( pp )
-        print(f"The text has been encrypted : [{encoded_message}]")
+        print(f"Text encryption : [{encoded_message}]")
     
     elif choice == "2":
         encoded_message = input("Enter the ciphertext : ")
@@ -96,7 +96,7 @@ def main():
         
         tt = " \033[1;33m " 
         print ( tt )
-        print(f"Decrypted : [{decoded_message}]")
+        print(f"Decryption : [{decoded_message}]")
     
     else:
         print("")
