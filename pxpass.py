@@ -1,6 +1,6 @@
-#اسم الاداه PxPass
+
 import os
-os.system('clear')  # لمسح محتوى الشاشة في Termux
+os.system('clear')  
 hh = " \033[1;37m "
 print ( hh )
 
@@ -12,10 +12,10 @@ print ( n )
 print ( " ~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~")
 from colorama import init, Fore
 
-# تفعيل مكتبة colorama
+
 init()
 
-# طباعة النص باللون الرمادي
+
 print(Fore.LIGHTBLACK_EX + "")
 print ( " -*this tool was made by 'BOYARB🍷'")
 
@@ -28,19 +28,19 @@ print ( m )
 
 import base64
 
-# دالة لتشفير النص باستخدام Base64
+
 def encode_base64(message):
-    message_bytes = message.encode('utf-8')  # تحويل النص إلى بايتات
-    encoded_message = base64.b64encode(message_bytes)  # تشفير النص إلى Base64
-    return encoded_message.decode('utf-8')  # تحويل النتيجة إلى نص قابل للطباعة
+    message_bytes = message.encode('utf-8')  
+    encoded_message = base64.b64encode(message_bytes)  
+    return encoded_message.decode('utf-8')  
 
-# دالة لفك تشفير النص المشفر باستخدام Base64
+
 def decode_base64(encoded_message):
-    encoded_bytes = encoded_message.encode('utf-8')  # تحويل النص المشفر إلى بايتات
-    decoded_bytes = base64.b64decode(encoded_bytes)  # فك تشفير النص من Base64
-    return decoded_bytes.decode('utf-8')  # تحويل النتيجة إلى نص قابل للطباعة
+    encoded_bytes = encoded_message.encode('utf-8')  
+    decoded_bytes = base64.b64decode(encoded_bytes)  
+    return decoded_bytes.decode('utf-8')  
 
-# واجهة المستخدم
+
 def main():
     print("")
     print("1 : Text encryption")
@@ -62,14 +62,14 @@ def main():
     
     if choice == "1":
         message = input("Enter text to encrypt it : ")
-        encoded_message = encode_base64(message)  # تشفير النص
+        encoded_message = encode_base64(message)  
         pp =  " \033[1;33m "
         print ( pp )
         print(f"Text encryption : [{encoded_message}]")
     
     elif choice == "2":
         encoded_message = input("Enter the ciphertext : ")
-        decoded_message = decode_base64(encoded_message)  # فك تشفير النص
+        decoded_message = decode_base64(encoded_message)  
         
         
         tt = " \033[1;33m " 
@@ -80,7 +80,7 @@ def main():
         print("")
         return
 
-# تشغيل الأداة
+
 if __name__ == "__main__":
     main()
     
