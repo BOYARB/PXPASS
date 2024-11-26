@@ -49,7 +49,7 @@ def main():
     print("2 : To decrypt text")
     print ( """
     """)
-    print ( "3 : exit ")
+    print ("3 : exit ")
     print ( """
     """)
     o = " \033[1;34m  "
