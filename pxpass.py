@@ -3,12 +3,9 @@ import os
 os.system('clear')  # لمسح محتوى الشاشة في Termux
 hh = " \033[1;37m "
 print ( hh )
-print ( """
-_________________________________
-|  _ \ \/ /  _ \ / \  / ___/ ___|
-| |_) \  /| |_) / _ \ \___ \___ \
-|  __//  \|  __/ ___ \ ___) |__) |
-|_|  /_/\_\_| /_/   \_\____/____/ """) 
+
+import pyfiglet
+print ( pyfiglet.figlet_format ( ' PXPASS ' ))
 
 n = " \033[1;31m "
 print ( n )
