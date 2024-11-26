@@ -1,5 +1,5 @@
 # PXPASS
-What does a tool do? A good tool for encrypting and decrypting texts. Use it freely.💫
+What does the tool do? A good tool for encoding and decoding text. A simple tool that I use freely.💫
 # Use on 
 1 : termux
 
