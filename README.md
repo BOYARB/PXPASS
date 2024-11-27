@@ -22,3 +22,8 @@ cd PXPASS
 pip install -r requirements.txt
 
 python pxpass.py
+_____________________________________
+
+This repository is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+Please refer to the LICENSE file
+for more details.
